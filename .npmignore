@@ -1,0 +1,6 @@
+coverage
+scripts
+examples
+*.log
+*.config.js
+*.lock

@@ -1,0 +1,26 @@
+node_modules
+design
+packages/test
+dist
+temp
+package-lock.json
+
+# system temp file
+.version
+$RECYCLE.BIN/
+.DS_Store
+*.log
+**/dist/**
+
+# ide files
+.idea
+.vuerc
+
+# vscode
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history

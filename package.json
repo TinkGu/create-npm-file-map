@@ -1,0 +1,40 @@
+{
+  "name": "create-npm-file-map",
+  "version": "1.0.0",
+  "description": "auto-create npm file map and mapping packages",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinkGu/create-npm-file-map.git"
+  },
+  "keywords": [
+    "npm",
+    "file",
+    "npmfilemap",
+    "subpackage"
+  ],
+  "author": "TinkGu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinkGu/create-npm-file-map/issues"
+  },
+  "homepage": "https://github.com/TinkGu/create-npm-file-map#readme",
+  "scripts": {
+    "example": "rm -rf ./examples/after && cp -r ./examples/before ./examples/after && node ./scripts/example.js",
+    "release": "standard-version",
+    "postpublish": "git push origin HEAD --follow-tags"
+  },
+  "devDependencies": {
+    "eslint": "7.13.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "parse-gitignore": "^1.0.1",
+    "rimraf": "3.0.2",
+    "standard-version": "9.1.1",
+    "write-pkg": "^4.0.0"
+  },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  }
+}

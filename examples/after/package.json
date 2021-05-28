@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "out/cjs/index.js",
+  "module": "out/esm/index.js",
+  "author": "TinkGu",
+  "files": [
+    "out",
+    "a",
+    "b",
+    "sub"
+  ],
+  "npmName": "example",
+  "npmFileMap": [
+    {
+      "basePath": "/out/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
+}

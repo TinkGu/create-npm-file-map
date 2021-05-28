@@ -1,0 +1,6 @@
+{
+  "name": "example/sub",
+  "module": "../out/esm/sub/index.js",
+  "main": "../out/cjs/sub/index.js",
+  "private": true
+}

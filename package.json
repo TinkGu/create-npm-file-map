@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/TinkGu/create-npm-file-map.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "npm",
     "file",

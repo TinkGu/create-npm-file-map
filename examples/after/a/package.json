@@ -2,5 +2,5 @@
   "name": "example/a",
   "module": "../out/esm/a.js",
   "main": "../out/cjs/a.js",
-  "types": "../out/cjs/a.d.ts"
+  "types": "../out/cjs/a/index.d.ts"
 }

@@ -2,5 +2,5 @@
   "name": "example/b",
   "module": "../out/esm/b.js",
   "main": "../out/cjs/b.js",
-  "private": true
+  "types": "../out/cjs/b.d.ts"
 }

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/TinkGu/create-npm-file-map/compare/v1.2.1...v1.3.0) (2021-06-08)
+
+
+### Features
+
+* auto add sub module declaration to index.d.ts ([77dcaac](https://github.com/TinkGu/create-npm-file-map/commit/77dcaac0424462764807e4b41c5c7bda6ac8fe88))
+
 ### [1.2.1](https://github.com/TinkGu/create-npm-file-map/compare/v1.2.0...v1.2.1) (2021-05-31)
 
 
